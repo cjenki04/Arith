@@ -1,0 +1,24 @@
+Names: Conor Jenkinson and Eli LaGorga
+
+
+Help: None
+
+
+Implemented:
+We believe everything is implemented as specified in the spec
+
+Architexture: 
+-Uarray2 with 2x2 blocks containing Pnm_rgb structs which are 
+ an integer representation of pixels or words which are binary
+ representations of 2x2 blocks of pixels
+-module for converting between integer (RGB) and floating-point 
+ (YPrPb) representations of pixel
+-module for converting between pixel and block of 2x2 pixels
+-module for converting between block of 2x2 pixels and uint32_t code words
+-module for 4-bit quantized representation of chroma math
+-module for discrete cosine coefficients of luminances math
+-module for packing and unpacking bit fields
+
+Hours: 15
+
+Hours: 30
